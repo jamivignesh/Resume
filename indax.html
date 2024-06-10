@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh Jami- Portfolio</title>
+    <meta name="description" content="Portfolio of Vignesh Jami, a passionate Computer Science & Engineering student with a keen interest in software development and problem-solving.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add any custom styles here */
+        /* Custom styles for the header background */
+        header {
+            background-image: url('https://source.unsplash.com/1600x900/?coding');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #a61111;
+            text-align: center;
+        }
+
+        /* Style for the header text */
+        header h1 {
+            font-size: 4rem;
+        }
+
+        /* Style for the header subtitle */
+        header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        /* Style for the navigation links */
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        /* Style for the about section */
+        #about {
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the skills section */
+        #skills {
+            background-color: #f9f9f9;
+        }
+
+        /* Style for the projects section */
+        #projects {
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the education section */
+        #education {
+            background-color: #f9f9f9;
+        }
+
+        /* Style for the resume section */
+        #resume {
+            background-color: #8b4f4f;
+        }
+
+        /* Style for the contact section */
+        #contact {
+            background-color: #814747;
+        }
+
+        /* Style for the contact section heading */
+        #contact h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        /* Style for the contact cards */
+        .contact-card {
+            background-color: #6c3636;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effect for contact cards */
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold">Vignesh Jami</h1>
+            <p class="mt-2">Computer Science & Engineering Student</p>
+            <p class="mt-2">Looking forward to work!</p>
+        </div>
+    </header>
+
+    <nav class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-center items-center">
+            <ul class="flex">
+                <li class="ml-4"><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li class="ml-4"><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                <li class="ml-4"><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li class="ml-4"><a href="#education" class="hover:text-gray-300">Education</a></li>
+                <li class="ml-4"><a href="#resume" class="hover:text-gray-300">Resume</a></li>
+                <li class="ml-4"><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">About Vignesh Jami</h2>
+            <p class="text-lg">I am a passionate Computer Science & Engineering student with a keen interest in software development and problem-solving. I am enthusiastic about learning new technologies and contributing to innovative projects.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#10010;</span> C++</li>
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#60;/&#62;</span> HTML</li>
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#8734;</span> SQL</li>
+                <li class="text-lg animate-bounce"><span class="text-5xl">&#99;</span> C</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Environmental Monitoring system</h3>
+                    <p class="mb-4">Developed a Environmental Monitoring system with a team as a team lead. The system enables continuous monitoring of vital signs remotely and alerts Environmental Monitoring in case of abnormal readings.</p>
+                    <a href="#" class="text-blue-500 hover:underline">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Education</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">10th - Sri Chaitanya</h3>
+                    <p class="text-lg">GPA :9.3</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">12th Standard - Sri Chaitanya Junior College</h3>
+                    <p class="text-lg">Percentage: 92.5%</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Bachelor's in Computer Science & Engineering - SRM University</h3>
+                    <p class="text-lg">Specialization: Internet of Things</p>
+                    <p class="text-lg">CGPA: 9.18</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Resume</h2>
+            <a href="https://drive.google.com/file/d/1A28bn3XO76A9bwYHvjBf0F94_oGX9BrY/view?usp=sharing" class="text-blue-500 hover:underline" target="_blank">View Resume</a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="contact-card">
+                    <h3 class="text-xl font-bold mb-4">Email</h3>
+                    <p class="mb-4">You can reach out to me via email:</p>
+                    <p class="text-lg">vigneshjami2703@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <h3 class="text-xl font-bold mb-4">Phone</h3>
+                    <p class="mb-4">Feel free to give me a call:</p>
+                    <p class="text-lg">9381217611</p>
+                </div>
+                <div class="contact-card">
+                    <h3 class="text-xl font-bold mb-4">LinkedIn</h3>
+                    <p class="mb-4">Connect with me on LinkedIn:</p>
+                    <a href="https://www.linkedin.com/in/vignesh-jami-7a7636261?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlIJGyVceRU6veHOeXzjjbg%3D%3D" class="text-blue-500 hover:underline" target="_blank">LinkedIn Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
